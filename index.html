@@ -3,16 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> GRACE , My Virtual Assistant </title>
+    <title>GRACE - Virtual Assistant</title>
+
     <link rel="shortcut icon" href="virtual assistant pic.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="script.js">
+
+    <!-- IMPORTANT: JS should NOT be added as stylesheet -->
+    <script defer src="script.js"></script>
 </head>
+
 <body>
     <img src="virtual assistant pic.jpg" alt="virtual assistant" id="virtualAssistant">
-    <h1> Hello , I'm <span id="name">GRACE</span> Your <span id="VA">Virtual Assistant</span></h1>
+
+    <h1>Hello, I'm <span id="name">GRACE</span> Your <span id="VA">Virtual Assistant</span></h1>
+
     <img src="voice assistant.gif" alt="Voice" id="Voice">
-    <button id="Btn"><img src="mic.svg" alt="mic"> <span id="content">Click Here To Search What You Want</span></button>
-    <script src="script.js"></script>
+
+    <button id="Btn">
+        <img src="mic.svg" alt="mic">
+        <span id="content">Click and speak what you want…</span>
+    </button>
 </body>
 </html>
